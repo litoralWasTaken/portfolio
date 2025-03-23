@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    Hola mundo
+    Hola buenas
   </div>
 </template>
 
