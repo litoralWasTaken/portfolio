@@ -20,7 +20,7 @@ export default {
     downloadCV() {
 
       // Define the PDF file path (relative to public/)
-      const fileUrl = "/portfolio/public/cv.pdf"; // Adjust the file name if needed
+      const fileUrl = "/cv.pdf"; // Adjust the file name if needed
 
       // Create a temporary anchor element
       const a = document.createElement("a");
