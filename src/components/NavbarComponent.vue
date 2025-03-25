@@ -1,5 +1,5 @@
 <template>
-  <navbar>
+  <nav>
     <div class="navbar-component-bg navbar-component-closed">
       <div class="navbar-title-container">
         <div class="navbar-component-title">
@@ -22,7 +22,7 @@
         <li>Contacto</li>
       </a>
     </ul>
-  </navbar>
+  </nav>
 </template>
 <script>
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
