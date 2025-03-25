@@ -1,18 +1,22 @@
 <template>
   <div>
     <NavbarComponent id="navbar"></NavbarComponent>
-    <main>
+    <main id="main">
+      <AboutMeComponent></AboutMeComponent>
+
     </main>
 
   </div>
 </template>
 
 <script>
+import AboutMeComponent from './components/AboutMeComponent.vue';
 import NavbarComponent from './components/NavbarComponent.vue';
 
 export default {
   components: {
-    NavbarComponent
+    NavbarComponent,
+    AboutMeComponent
   }
 }
 </script>
