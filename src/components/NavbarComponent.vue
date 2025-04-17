@@ -15,7 +15,7 @@
       <a href="#">
         <li>Proyectos</li>
       </a>
-      <a href="#">
+      <a href="#tech-main-container">
         <li>Tecnologías</li>
       </a>
       <a href="#">
@@ -54,8 +54,8 @@ a {
 }
 
 .navbar-component-bg {
-  background-color: blueviolet;
-  color: white;
+  background-color: var(--secondary);
+  color: var(--text);
 }
 
 .navbar-component-closed {
