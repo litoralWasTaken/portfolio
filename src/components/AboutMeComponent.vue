@@ -1,7 +1,7 @@
 <template>
   <div id="about-me-bg">
     <img id="about-me-my-photo" src="/photo.jpg" alt="Mi foto">
-    <div>
+    <div id="about-me-text">
       ¡Hola! Mi nombre es <span id="about-me-my-name">Rodrigo García López</span>, soy un desarrollador de la
       Comunidad de Madrid. Aunque
       estoy graduado en desarrollo web full-stack, también he adquirido experiencia en diversos entornos, especialmente
@@ -9,7 +9,7 @@
       el desarrollo de aplicaciones Android.
     </div>
 
-    <div id="about-me-cv-download-btn" @click="downloadCV()">
+    <div class="my-btn" @click="downloadCV()">
       Descarga mi CV
     </div>
   </div>
@@ -45,19 +45,16 @@ export default {
   align-items: center;
 }
 
-#about-me-cv-download-btn {
-  background-color: var(--secondary);
-  color: var(--text);
-  width: fit-content;
-  padding: 10px;
-  margin-top: 10px;
-  border-radius: 10px;
-}
+
 
 #about-me-my-photo {
   padding: 10px;
   width: auto;
   height: 200px;
+}
+
+#about-me-text {
+  padding: 10px;
 }
 
 #about-me-my-name {
