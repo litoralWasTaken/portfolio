@@ -4,6 +4,8 @@
     <main id="main">
       <AboutMeComponent />
       <TechComponent />
+      <ContactComponent />
+
     </main>
     <footer>
       <FooterComponent></FooterComponent>
@@ -14,6 +16,7 @@
 
 <script>
 import AboutMeComponent from './components/AboutMeComponent.vue';
+import ContactComponent from './components/ContactComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 import NavbarComponent from './components/NavbarComponent.vue';
 import TechComponent from './components/TechComponent.vue';
@@ -23,7 +26,8 @@ export default {
     NavbarComponent,
     AboutMeComponent,
     TechComponent,
-    FooterComponent
+    ContactComponent,
+    FooterComponent,
   }
 }
 </script>
