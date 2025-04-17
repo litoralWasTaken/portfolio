@@ -12,13 +12,10 @@
       <a href="#">
         <li>Sobre mí</li>
       </a>
-      <a href="#">
-        <li>Proyectos</li>
-      </a>
       <a href="#tech-main-container">
         <li>Tecnologías</li>
       </a>
-      <a href="#">
+      <a href="#contact-main-container">
         <li>Contacto</li>
       </a>
     </ul>
