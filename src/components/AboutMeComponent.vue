@@ -2,7 +2,7 @@
   <div id="about-me-bg">
     <img id="about-me-my-photo" src="/photo.jpg" alt="Mi foto">
     <div>
-      ¡Hola! Mi nombre es <span id="about-me-my-name">Rodrigo García López</span>, soy un desarrollador web de la
+      ¡Hola! Mi nombre es <span id="about-me-my-name">Rodrigo García López</span>, soy un desarrollador de la
       Comunidad de Madrid. Aunque
       estoy graduado en desarrollo web full-stack, también he adquirido experiencia en diversos entornos, especialmente
       en
@@ -20,7 +20,7 @@ export default {
     downloadCV() {
 
       // Define the PDF file path (relative to public/)
-      const fileUrl = "/cv.pdf"; // Adjust the file name if needed
+      const fileUrl = "https://github.com/litoralWasTaken/portfolio/blob/master/public/cv.pdf"; // Adjust the file name if needed
 
       // Create a temporary anchor element
       const a = document.createElement("a");
